@@ -1,0 +1,19 @@
+.user-info-title{
+    border-bottom: 1px solid #CECECE;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 5px 15px;
+    padding: 10px 0;
+    position: relative;
+    text-transform: uppercase;
+}
+.w100{
+    width: 100%;
+}
+
+.panel-default>.panel-heading {
+    border-top: 4px solid #4ec67f;
+}
+.panel-default {
+    font-size: 12px;
+}
