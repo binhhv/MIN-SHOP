@@ -1,0 +1,75 @@
+.back-to-shopping a{
+    text-decoration: none;
+    color: #777;
+}
+.back-to-shopping a:hover{
+    color: #27ae60;
+
+}
+.cartTable {
+    border-top: solid 1px #EBEDEF;
+}
+table.cartTable{
+    width: 100%;
+    color: #777;
+    font-size: 12px;
+}
+tr.CartProduct {
+    border-bottom: 1px solid #E7E9EC;
+}
+.cartTableHeader {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.cartTableHeader {
+    background: #EBEDEF;
+}
+.cartTableHeader td{
+    padding: 10px;
+}
+table.cartTable td img{
+    max-width: 100%;
+    max-height: 100%;
+}
+tr.CartProduct td{
+    text-align: center;
+    padding: 5px;
+}
+.quanitySniper{
+    width: 50px;
+    float: left;
+}
+.w100{
+    width: 100%;
+}
+.product-cart{
+    margin-bottom: 20px;
+}
+.detail-cost-table{
+    padding: 10px;
+    border: 1px solid #777;
+}
+.detail-cost-table table{
+    width: 100%;
+}
+.detail-cost-table table td{
+    padding: 10px;
+    color: #777;
+}
+.detail-cost-table table tr{
+    border-bottom: 1px solid #777;
+}
+span.success, p.success div.success {
+    color: #8BB418;
+}
+
+.cartFooter {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: solid 1px #eee;
+    background: #EBEDEF;
+    display: inline-block;
+    width: 100%;
+}

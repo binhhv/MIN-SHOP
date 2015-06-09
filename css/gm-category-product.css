@@ -1,0 +1,56 @@
+.panel-default>.panel-heading {
+    border-top: 4px solid #4ec67f;
+}
+.panel-default{
+    font-size: 12px;
+}
+.button-category{
+    border-left: 1px solid #2b542c;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+.menu-item{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+ul.category-ul{
+    list-style: none;
+    padding-left: 0px;
+}
+ul.category-ul li{
+    margin-top: 5px;
+}
+ul.category-ul li a{
+    text-decoration: none;
+    color: #777;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+ul.category-ul li a:hover{
+    color: #27ae60;
+    padding-left: 10px;
+}
+ul.category-ul li a.active{
+    font-weight: bold;
+    color: #27ae60;
+    font-size: 17px;
+}
+.category-content h2{
+    margin: 0;
+    padding: 0;
+}
+.category-image{
+    width: 100%;
+    height: 100px;
+}
+.category-image img{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

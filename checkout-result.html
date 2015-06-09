@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>MY CART</title>
+    <title>CHECK OUT</title>
     <meta name="generator" content="Bootply"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -14,6 +14,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/gm-responsive-css.css" rel="stylesheet">
     <link href="css/gm-component-custom.css" rel="stylesheet">
+    <link href="css/gm-check-out.css" rel="stylesheet">
     <link href="css/gm-cart.css" rel="stylesheet">
 </head>
 <body>
@@ -124,118 +125,51 @@
         <div class="breadcrumbDiv col-lg-12">
             <ul class="breadcrumb">
                 <li> <a href="index.html">Home</a> </li>
-                <li> Cart </li>
+                <li><a href="cart.html">Cart </a></li>
+                <li >Checkout</li>
             </ul>
         </div>
     </div>
     <div class="content">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h3 class="text-muted">
-                    <i class="glyphicon glyphicon-shopping-cart">
-                    </i>
-                    Shopping Cart
-                </h3>
+        <div class="row userInfo">
+            <div class="thanxContent text-center">
+                <h1> Thank you for your order <a href="order-status.html">#6469</a></h1>
+                <h4>we'll let you know when your items are on their way</h4>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <h5 class="text-muted back-to-shopping">
-                    <a href="index.html">
-                        <i class="fa fa-chevron-left"></i>
-                        BACK TO SHOPPING
-                    </a>
-                </h5>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-sm-12 col-md-8 col-xs-12 product-cart">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12">
-                        <table class="cartTable table-responsive">
-                            <tbody>
-                            <tr class="CartProduct cartTableHeader">
-                                <td style="width:15%"> Product </td>
-                                <td style="width:50%">Details</td>
-                                <td style="width:10%" class="delete">&nbsp;</td>
-                                <td style="width:10%">QNT</td>
-                                <td style="width:15%">Total</td>
-                            </tr>
-                            <tr class="CartProduct">
-                                <td class="CartProductThumb"><div> <a href="product-details.html"><img src="images/assets/1.jpg" alt="img"></a> </div></td>
-                                <td><div class="CartDescription">
-                                    <p> <a href="product-details.html"><strong>Denim T shirt Black</strong> </a> </p>
-                                    <span ><strong>12 x 1.5 L</strong></span>
-                                    <div > <span><strong>$8.80</strong></span></div>
-                                </div></td>
-                                <td class="delete"><a title="Delete"> <i class="glyphicon glyphicon-trash fa-2x"></i></a></td>
-                                <td><select>
-                                    <option value="1" selected>1</option>
-                                    <option value="2" >2</option>
-                                    <option value="3" >3</option>
-                                </select></td>
-                                <td ><strong>$300</strong></td>
-                            </tr>
-                            <tr class="CartProduct">
-                                <td class="CartProductThumb"><div> <a href="product-details.html"><img src="images/assets/1.jpg" alt="img"></a> </div></td>
-                                <td><div class="CartDescription">
-                                    <p> <a href="product-details.html"><strong>Denim T shirt Black</strong> </a> </p>
-                                    <span ><strong>12 x 1.5 L</strong></span>
-                                    <div > <span><strong>$8.80</strong></span></div>
-                                </div></td>
-                                <td class="delete"><a title="Delete"> <i class="glyphicon glyphicon-trash fa-2x"></i></a></td>
-                                <td><select >
-                                    <option value="1" selected>1</option>
-                                    <option value="2" >2</option>
-                                    <option value="3" >3</option>
-                                </select></td>
-                                <td ><strong>$300</strong></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
-                        <div class="cartFooter w100">
-                            <div class="box-footer">
-                                <div class="pull-left"> <a href="index-2.html" class="btn btn-success"> <i class="fa fa-arrow-left"></i> &nbsp; Continue shopping </a> </div>
-                                <div class="pull-right">
-                                    <button type="submit" class="btn btn-primary"> <i class="fa fa-undo"></i> &nbsp; Update cart </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12 right-bar">
-                <div class="w100 costdetails">
-                    <a class="btn btn-success btn-lg btn-block " title="checkout" href="checkout-address.html" style="margin-bottom:20px"> Proceed to checkout &nbsp; <i class="fa fa-arrow-right"></i> </a>
-
-                    <div class="detail-cost-table">
-                        <table>
-                            <tr>
-                                <td>Total products</td>
-                                <td><strong>$216.51</strong></td>
-                            </tr>
-                            <tr>
-                                <td>Shipping</td>
-                                <td><span class="success"> <strong>Free shipping!</strong></span></td>
-                            </tr>
-                            <tr>
-                                <td>Total (tax excl.)</td>
-                                <td><strong>$216.51</strong></td>
-                            </tr>
-                            <tr>
-                                <td>Total tax</td>
-                                <td><strong>$0.00</strong></td>
-                            </tr>
-                            <tr>
-                                <td>Total</td>
-                                <td><strong>$216.51</strong></td>
-                            </tr>
-                        </table>
-                    </div>
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="cartContent w100 checkoutReview ">
+                    <table class="cartTable table-responsive">
+                        <tbody>
+                        <tr class="CartProduct cartTableHeader">
+                            <td colspan="4">ITEMS TO BE SHIPPED</td>
+                        </tr>
+                        <tr class="CartProduct">
+                            <td  style="width:15%" class="CartProductThumb"><div> <a href="product-details.html"><img src="images/assets/1.jpg" alt="img"></a> </div></td>
+                            <td><div class="CartDescription">
+                                <p> <a href="product-details.html"><strong>Denim T shirt Black</strong> </a> </p>
+                                <span ><strong>12 x 1.5 L</strong></span>
+                                <div > <span><strong>$8.80</strong></span></div>
+                            </div></td>
+                            <td>3</td>
+                            <td ><strong>$300</strong></td>
+                        </tr>
+                        <tr class="CartProduct">
+                            <td  style="width:15%" class="CartProductThumb"><div> <a href="product-details.html"><img src="images/assets/1.jpg" alt="img"></a> </div></td>
+                            <td><div class="CartDescription">
+                                <p> <a href="product-details.html"><strong>Denim T shirt Black</strong> </a> </p>
+                                <span ><strong>12 x 1.5 L</strong></span>
+                                <div > <span><strong>$8.80</strong></span></div>
+                            </div></td>
+                            <td>2</td>
+                            <td ><strong>$300</strong></td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
 
             </div>
         </div>
+
     </div>
 
 

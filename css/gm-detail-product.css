@@ -1,0 +1,128 @@
+.product-thumb {
+    border-top: 1px solid #ddd;
+    clear: both;
+    display: block;
+    text-align: center;
+}
+.no-padding {
+    padding: 0!important;
+}
+.product-thumb a {
+    border: 1px solid #ccc;
+    display: inline-block;
+    float: none;
+    margin-right: 10px!important;
+    margin-top: 5px;
+    height: 75px;
+    overflow: hidden;
+    width: 60px!important;
+    padding: 2px;
+}
+.product-thumb a:hover{
+    border: 1px solid #27ae60;
+    cursor: pointer;
+}
+.thumbLink img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.main-image img{
+    max-width: 100%;
+    height: auto;
+}
+.detail-product{
+    color: #34495E;
+}
+.product-title {
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.product-code {
+    font-family: oswald,Helvetica Neue,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    padding: 0;
+    text-transform: uppercase;
+}
+.product-price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.detail-product-inner{
+    padding: 0 30px 30px 30px;
+    width: 100%;
+}
+.price-standard {
+    color: #999999;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.productFilter {
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    clear: both;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.filterBox {
+    display: inline-block;
+    margin-right: 10px;
+    width: 45%;
+}
+.cart-actions {
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 12px;
+    clear: both;
+}
+.tab-pane{
+    padding: 10px;
+}
+.tab-pane table td{
+    padding: 5px;
+
+}
+.product-share {
+    border-top: 1px solid #DDDDDD;
+    clear: both;
+    display: inline-block;
+    margin-top: 20px;
+    padding-top: 14px;
+    width: 100%;
+}
+.socialIcon a:hover{
+    background-color: #27ae60;
+}
+.socialIcon a {
+    background: #CCCCCC;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 22px;
+    padding: 6px 3px;
+    margin-right: 10px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    transition: all 0.15s ease-in-out 0s;
+    -moz-transition: all 0.15s ease-in-out 0s;
+    -webkit-transition: all 0.15s ease-in-out 0s;
+    -o-transition: all 0.15s ease-in-out 0s;
+    -ms-transition: all 0.15s ease-in-out 0s;
+}
+.item-addto{
+    padding: 5px;
+}
